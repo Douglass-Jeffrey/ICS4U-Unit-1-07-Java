@@ -39,11 +39,11 @@ public class WoodCutter {
       Scanner scan = new Scanner(System.in);
       
       // receives length input
-      System.out.println("Insert the length of the board: ");
+      System.out.println("Insert the length of the board (inches): ");
       float length = scan.nextFloat();
       
       // receives width input
-      System.out.println("Insert the width of the board: ");
+      System.out.println("Insert the width of the board (inches): ");
       float width = scan.nextFloat();
 
       // receives information from BoardFoot.
@@ -51,7 +51,7 @@ public class WoodCutter {
 
       // Outputing the rolled number.
       System.out.println("The height of the board foot with specified"
-                         + " dimensions: " + calcHeight);
+                         + " dimensions: " + calcHeight + " inches");
       
     //catches invalid inputs  
     } catch (Exception e) {
